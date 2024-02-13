@@ -8,7 +8,7 @@ const CategoryListPage = () => {
         <Fragment>
             <MasterLayout>
                 <Suspense fallback={<LazyLoader/>}>
-                        <CategoryList/>
+                    <CategoryList/>
                 </Suspense>
             </MasterLayout>
         </Fragment>
